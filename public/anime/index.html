@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMAX</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <a href="index.html" class="logo"
+        ><i class="fas fa-infinity"></i>ANIMAX</a
+      >
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#anime">Anime</a>
+        <a href="#action">Action</a>
+        <a href="#child">Kids</a>
+        <a href="#family">Family</a>
+        <a href="comedy.html">Comedy</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search anime..." />
+          <div id="search-results"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Container for search results -->
+    <div id="search-results"></div>
+
+    <!-- home section start -->
+
+    <section class="home" id="home">
+      <div class="home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-5.jpg) no-repeat"
+            >
+              <div class="content">
+                <h3>DEMON SLAYER</h3>
+                <a href="anime/download.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-3.jpeg) no-repeat"
+            >
+              <div class="content">
+                <h3>DEATH NOTE</h3>
+                <a href="anime/deathnote.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-6.jpg) no-repeat"
+            >
+              <div class="content">
+                <h3>JUJUTSU KAISEN</h3>
+                <a href="anime/jjk.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-7.jpg) no-repeat"
+            >
+              <div class="content">
+                <h3>Ninja Kamui</h3>
+                <a href="anime/ninja.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-8.jpeg) no-repeat"
+            >
+              <div class="content">
+                <h3>Attack On Titan</h3>
+                <a href="anime/aot.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-9.jpg) no-repeat"
+            >
+              <div class="content">
+                <h3>Solo Leveling</h3>
+                <a href="anime/solo.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-12.jpeg) no-repeat"
+            >
+              <div class="content">
+                <h3>BLUE LOCK</h3>
+                <a href="anime/bluelock.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-13.jpeg) no-repeat"
+            >
+              <div class="content">
+                <h3>BERSERK</h3>
+                <a href="anime/berserk.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-4.jpeg) no-repeat"
+            >
+              <div class="content">
+                <h3>One Punch Man</h3>
+                <a href="anime/op.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-2.jpg) no-repeat"
+            >
+              <div class="content">
+                <h3>Naruto Shippuden</h3>
+                <a href="anime/naruto.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/home-img-1.png) no-repeat"
+            >
+              <div class="content">
+                <h3>Baki</h3>
+                <a href="anime/baki.html" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- anime section start -->
+
+    <section class="anime" id="anime">
+      <h1 class="heading">Short Anime(ENG DUB)</h1>
+      <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/anime-img-1.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>LOOKISM</h3>
+              <a href="anime/lookism.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/anime-img-2.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>KAIJU NO 8</h3>
+              <a href="anime/kaiju.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/anime-img-3.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>TEKKEN</h3>
+              <a href="anime/tekken.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/anime-img-4.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>WIND BREAKER</h3>
+              <a href="anime/wind.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/anime-img-5.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>CHAINSAW MAN</h3>
+              <a href="anime/chainsaw.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- action section start -->
+
+    <section class="action" id="action">
+      <h1 class="heading">Action Movies(ENG DUB)</h1>
+      <div class="swiper action-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/action-1.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Jujutsu Kaisen 0</h3>
+              <a href="movies/jjk.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/action-2.png) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Demon Slayer</h3>
+              <a href="movies/DS.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/action-3.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Baki</h3>
+              <a href="movies/baki.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/action-4.jpeg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Black Clover</h3>
+              <a href="movies/BC.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/acion-5.png) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>fullmetal alchemist</h3>
+              <a href="movies/fa.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/acion-6.png) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>The Witcher</h3>
+              <a href="movies/witch.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/action-7.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Cowboy Bebop</h3>
+              <a href="movies/cowboy.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/action-8.png) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Akira</h3>
+              <a href="movies/akira.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- child section start -->
+
+    <section class="child" id="child">
+      <h1 class="heading">Kids Movies(Hindi Dub)</h1>
+      <div class="swiper child-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/child-1.png) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Pokemon</h3>
+              <a href="anime/pokemon.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/child-2.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Doraemon</h3>
+              <a href="anime/doremon.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/child-3.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Shinchan</h3>
+              <a href="anime/shinchan.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/child-4.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Tom and Jerry</h3>
+              <a href="anime/tom&jer.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- family section start -->
+
+    <section class="family" id="family">
+      <h1 class="heading">Ghibli Studio(Hindi Dub)</h1>
+      <div class="swiper family-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/silent.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>A SILENT VOICE</h3>
+              <a href="ENG MOV/silent.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/s2.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>SPIRITED AWAY</h3>
+              <a href="ENG MOV/spritaway.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/budhaa.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>BUDDHA</h3>
+              <a href="ENG MOV/budha.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/ponyo.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>PONYO</h3>
+              <a href="ENG MOV/ponyo.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/hmt.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>Howl Moving Castle</h3>
+              <a href="ENG MOV/hmc.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/kiki.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>KIKI</h3>
+              <a href="ENG MOV/kiki.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/princess.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>PRINCESS MONONOKE</h3>
+              <a href="ENG MOV/princess.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/mnt.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>MY NEIGHBOUR TOTORO</h3>
+              <a href="ENG MOV/mnt.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="family" id="family">
+      <h1 class="heading">3D ANIMATION(Hindi Dub)</h1>
+      <div class="swiper family-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/panda.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>KUNG FU PANDA</h3>
+              <a href="3D MOV/panda.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/cars.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>CARS</h3>
+              <a href="3D MOV/cars.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/big\ hero\ 6.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>BIG HERO 6</h3>
+              <a href="3D MOV/big.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/bad\ guys.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>BAD GUYS</h3>
+              <a href="3D MOV/bad.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/coco.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>COCO</h3>
+              <a href="3D MOV/coco.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/sing.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>SING</h3>
+              <a href="3D MOV/sing.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/insdie\ out.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>INSIDE OUT 2</h3>
+              <a href="3D MOV/inside.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/king.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>THE LION KING</h3>
+              <a href="3D MOV/lion.html" class="btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- copyright -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>
+            Welcome to ANIMAX! We offer a wide selection of anime in Japanese,
+            thrilling action movies in English dub, and delightful children's
+            movies in Hindi. Enjoy diverse content tailored to your preferences!
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="INFO/about.html">About</a></li>
+            <li><a href="INFO/dmca.html">DMCA</a></li>
+            <li><a href="INFO/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 ANIMAX. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- link swiper file -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="main.js"></script>
+    <script>
+      window.embeddedChatbotConfig = {
+        chatbotId: "GrTtufkqo3YjUtYTgRt7J",
+        domain: "www.chatbase.co",
+      };
+    </script>
+    <script
+      src="https://www.chatbase.co/embed.min.js"
+      chatbotId="GrTtufkqo3YjUtYTgRt7J"
+      domain="www.chatbase.co"
+      defer
+    ></script>
+  </body>
+</html>
